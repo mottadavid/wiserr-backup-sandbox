@@ -1,0 +1,8 @@
+{
+  "repo": "example/synthetic-range-fixture",
+  "branch": "fixture/pilot-smoke",
+  "head": "4a4740374e49b5fed58cb578bb2e8e6e899531f6",
+  "goal": "Review this entirely synthetic JavaScript function for a list-index boundary bug. Return one finding and a minimal suggested diff; do not write files.",
+  "tested": "Node tests on this clean commit: one passes (first index valid) and one fails (index equal to length is invalid), as expected for this deliberately broken fixture.",
+  "nextAction": "Identify the condition causing the failing test and suggest the smallest source change. Do not claim to run tests or apply the diff."
+}
